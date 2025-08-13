@@ -1,0 +1,52 @@
+.previewer-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.previewer-title {
+  background-color: #2ecc71;
+  color: white;
+  padding: 1rem;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.previewer-content {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.previewer-content h1 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.3em;
+}
+
+.previewer-content code {
+  background-color: #f6f8fa;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+}
+
+.previewer-content pre {
+  background-color: #f6f8fa;
+  padding: 1em;
+  border-radius: 3px;
+  overflow-x: auto;
+}
+
+.previewer-content blockquote {
+  border-left: 4px solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em;
+  margin-left: 0;
+}
